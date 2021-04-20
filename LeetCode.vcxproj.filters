@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\1.线性表">
+      <UniqueIdentifier>{8cc57b5f-8534-4ab2-831b-ced03315c86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.线性表\1.数组">
+      <UniqueIdentifier>{a4338146-6961-4c1d-8a4e-8328ec1b2eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.线性表\1.数组\1.移除有序数组中的重复元素">
+      <UniqueIdentifier>{d69df829-9c48-484a-93b6-231519177411}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Solution1.cpp">
+      <Filter>源文件\1.线性表\1.数组\1.移除有序数组中的重复元素</Filter>
     </ClCompile>
-    <ClCompile Include="1.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Solution2.cpp">
+      <Filter>源文件\1.线性表\1.数组\1.移除有序数组中的重复元素</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution3.cpp">
+      <Filter>源文件\1.线性表\1.数组\1.移除有序数组中的重复元素</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
