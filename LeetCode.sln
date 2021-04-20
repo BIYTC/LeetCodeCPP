@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCode", "LeetCode.vcxproj", "{87B1AB3F-65FE-4C5D-96D3-4B6CC7E1120B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.线性表", "1.线性表", "{123D2FE9-74E5-4BB5-AAB9-E4F99C79058B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.数组", "1.数组", "{4593FA32-2F9A-4945-8AF9-667577DA6950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.移除有序数组中的重复元素", "1.移除有序数组中的重复元素", "{A21E05DA-688E-41E0-95BF-9F9482FC5186}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +30,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87B1AB3F-65FE-4C5D-96D3-4B6CC7E1120B} = {A21E05DA-688E-41E0-95BF-9F9482FC5186}
+		{4593FA32-2F9A-4945-8AF9-667577DA6950} = {123D2FE9-74E5-4BB5-AAB9-E4F99C79058B}
+		{A21E05DA-688E-41E0-95BF-9F9482FC5186} = {4593FA32-2F9A-4945-8AF9-667577DA6950}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {353EDAD7-1C4B-4B1E-8086-D2A5DA4C9D12}
