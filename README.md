@@ -1,3 +1,3 @@
 # LeetCode
 LeetCode习题
-LeetCode算法题联系，C++实现
+LeetCode算法题练习，C++实现
