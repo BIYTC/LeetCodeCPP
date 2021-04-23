@@ -23,7 +23,7 @@ public:
 			}
 			if (nums[first] <= nums[mid])
 			{
-				if (nums[first] <= target && target < nums[mid])
+				if (nums[first] <= target && target < nums[mid])//绝对有序的区间
 				{
 					last = mid;
 				}
@@ -34,7 +34,7 @@ public:
 			}
 			else  //nums[first] > nums[mid]
 			{
-				if (target > nums[mid] && target <= nums[last - 1])
+				if (target > nums[mid] && target <= nums[last - 1])//绝对有序的区间
 				{
 					first = mid + 1;
 				}
