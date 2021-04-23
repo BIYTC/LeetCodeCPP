@@ -18,5 +18,11 @@
     <ClCompile Include="1.1.2Solution1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1.1.2Solution2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.2Solution3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

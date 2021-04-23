@@ -24,7 +24,7 @@ public:
 int main() {
 	Solution S;
 	int a[] = { 1,1,2,3,3,4,5,5 };
-	vector<int> A(a, a + 8);
+	vector<int> A(a, a + sizeof(a) / sizeof(int));
 	int ref = S.removeDuplicates(A);
 	cout << "去重后的数组长度为：" << ref << endl;
 	cout << "去重后的数组为：" << endl;
