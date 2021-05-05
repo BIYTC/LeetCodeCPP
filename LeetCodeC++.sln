@@ -21,7 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.4在旋转后的有序�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.4", "1.1.4\Project1\Project1.vcxproj", "{789D74F5-7755-4ACA-8923-9D2ABE59262F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.1移除有序数组中的重复元素", "1.1.1\1.1.1移除有序数组中的重复元素\1.1.1移除有序数组中的重复元素.vcxproj", "{9A49716B-E9A2-4B19-8A10-05FA76B319A1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.1", "1.1.1\1.1.1移除有序数组中的重复元素\1.1.1移除有序数组中的重复元素.vcxproj", "{9A49716B-E9A2-4B19-8A10-05FA76B319A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.5Median of Two Sorted Arrays", "1.1.5Median of Two Sorted Arrays", "{AE9F2BB5-0994-414C-9182-71C5002FFB45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.5", "1.1.5\Project1\Project1.vcxproj", "{4A0FE8FA-DC89-4846-943A-234A0CC89C99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{9A49716B-E9A2-4B19-8A10-05FA76B319A1}.Release|x64.Build.0 = Release|x64
 		{9A49716B-E9A2-4B19-8A10-05FA76B319A1}.Release|x86.ActiveCfg = Release|Win32
 		{9A49716B-E9A2-4B19-8A10-05FA76B319A1}.Release|x86.Build.0 = Release|Win32
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Debug|x64.ActiveCfg = Debug|x64
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Debug|x64.Build.0 = Debug|x64
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Debug|x86.Build.0 = Debug|Win32
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Release|x64.ActiveCfg = Release|x64
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Release|x64.Build.0 = Release|x64
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Release|x86.ActiveCfg = Release|Win32
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +89,8 @@ Global
 		{A3BF06E3-1C05-4AE4-8CEF-0BD302BE01C4} = {4593FA32-2F9A-4945-8AF9-667577DA6950}
 		{789D74F5-7755-4ACA-8923-9D2ABE59262F} = {A3BF06E3-1C05-4AE4-8CEF-0BD302BE01C4}
 		{9A49716B-E9A2-4B19-8A10-05FA76B319A1} = {A21E05DA-688E-41E0-95BF-9F9482FC5186}
+		{AE9F2BB5-0994-414C-9182-71C5002FFB45} = {4593FA32-2F9A-4945-8AF9-667577DA6950}
+		{4A0FE8FA-DC89-4846-943A-234A0CC89C99} = {AE9F2BB5-0994-414C-9182-71C5002FFB45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {353EDAD7-1C4B-4B1E-8086-D2A5DA4C9D12}
